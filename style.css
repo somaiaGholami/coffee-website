@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:georgia;
+    
+    font-style: italic;
+
+}
+
+body{
+    background: url('img/back.jpeg');
+}
+span{
+    font-size:3vw;
+    color:rgb(78, 49, 11);
+}
+
+
+
+section{
+
+   
+    
+    position: relative;
+    width: 90vw;
+   
+    padding:4vw;
+    margin: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#fff;
+    box-shadow: 2px 2px 4px rgb(174, 113, 21);
+}
+
+
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:80vw;
+   
+    display:flex;
+    justify-content: space-between;
+    align-items:left;
+    height: 21vw;
+
+}
+
+header .logo{
+    align-items: flex-start;
+  
+    max-width: 20vw;
+    opacity: 0.8;
+}
+
+
+
+h2,p,a{
+    
+    padding:1vw;
+
+}
+h2{
+    font-size:4vw;
+    margin-top:10vw;
+}
+button{
+    width: 10vw;
+    font-size: 2vw;
+    margin-left: 6vw;
+    height: 4vw;
+    background: rgb(57, 43, 8);
+    border: 1px dotted white;
+    box-shadow: 1px 1px 2px rgb(11, 10, 10);
+    border-radius:1vw;
+    color:white;
+
+}
+button:hover{
+    transform:translateX(-15px);
+    transform:translatey(+15px);
+}
+
+.content{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.content imgbox{
+    display:flex;
+    justify-content:flex-end ;
+
+}
+
+.thumb{
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    display: flex;
+    
+}
+.thumb li{
+    list-style-type: none;
+    cursor:pointer ;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform:translateX(-15px);
+    transform:translatey(-15px);
+}
+.thumb li img{
+    width: 4vw;
+    border-radius:50vw;
+}
+
+.sci li{
+    list-style-type: none;
+}
+
+.sci li a{
+    display: inline-block;
+    margin:5px 0;
+    transform: scale(0.6);
+}
+
+.sci li img{
+    width: 5vw;
+    
+}
+
+.sci li img:hover{
+    transform:translateX(-15px);
+    transform:translatey(-15px);
+}
+
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(180, 116, 13);
+    clip-path: circle(600px at right 800px);
+}
+
+
+/*
+Designed By : Somaia Gholami
+*/
